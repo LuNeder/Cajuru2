@@ -4651,7 +4651,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.7884
+        "zoomFactor": 0.5724
       },
       "objectsGroups": [],
       "variables": [
@@ -6461,7 +6461,7 @@
           "persistentUuid": "38ae8cea-a43e-499c-addb-8cc37bd43644",
           "width": 646,
           "x": -130,
-          "y": -139,
+          "y": -151,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -6541,7 +6541,7 @@
           "persistentUuid": "9257b73a-2d0d-48b1-b4cd-501705928630",
           "width": 873,
           "x": 4,
-          "y": 250,
+          "y": 246,
           "zOrder": 200003,
           "numberProperties": [],
           "stringProperties": [],
@@ -6639,7 +6639,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "\nCopyright 2020 Lu Neder\n\nThis work may be distributed and/or modified under the\nconditions of the LaTeX Project Public License, either version 1.3\nof this license or (at your option) any later version.\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX\nversion 2005/12/01 or later.\n\nThis work has the LPPL maintenance status `maintained'.\n\nThe Current Maintainer of this work is Lu Neder.\n\nThis work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru), exept images that include human faces. Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.",
+          "string": "\nCopyright 2020 Lu Neder\n\nThis work may be distributed and/or modified under the\nconditions of the LaTeX Project Public License, either version 1.3\nof this license or (at your option) any later version.\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX\nversion 2005/12/01 or later.\n\nThis work has the LPPL maintenance status `maintained'.\n\nThe Current Maintainer of this work is Lu Neder.\n\nThis work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru). Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.",
           "font": "",
           "characterSize": 11,
           "color": {
@@ -6908,7 +6908,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "GitHub: https://github.com/LucasMNP/Cajuru\nGameJolt: https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947\nWebsite: https://bit.ly/DiegVet\nParte 2 do jogo: http://bit.ly/DiegVet2",
+          "string": "GitHub: https://github.com/LucasMNP/Cajuru2\nGameJolt: PREENCHER DEPOIS\nWebsite: https://bit.ly/DiegVet2\nParte 1 do jogo: http://bit.ly/DiegVet",
           "font": "",
           "characterSize": 16,
           "color": {
@@ -6927,7 +6927,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Ver parte 2 do jogo",
+          "string": "Ver parte 1 do jogo",
           "font": "",
           "characterSize": 54,
           "color": {
@@ -7059,7 +7059,7 @@
                 "value": "LaunchFile"
               },
               "parameters": [
-                "\"https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio\"",
+                "\"https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início\"",
                 ""
               ],
               "subInstructions": []
@@ -7123,7 +7123,7 @@
                 "value": "LaunchFile"
               },
               "parameters": [
-                "\"https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947\"",
+                "\"\"",
                 ""
               ],
               "subInstructions": []
@@ -7187,7 +7187,7 @@
                 "value": "LaunchFile"
               },
               "parameters": [
-                "\"https://github.com/LucasMNP/Cajuru\"",
+                "\"https://github.com/LucasMNP/Cajuru2\"",
                 ""
               ],
               "subInstructions": []
@@ -7251,7 +7251,7 @@
                 "value": "LaunchFile"
               },
               "parameters": [
-                "\"https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início\"",
+                "\"https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio\"",
                 ""
               ],
               "subInstructions": []
