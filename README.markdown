@@ -1,18 +1,18 @@
-# Cajuru
-### Diego no Mundo dos Vetores
-Controle Diego, nosso querido professor de física, e ajude-o a sair do Mundo dos Vetores para voltar à sala de aula
+# Cajuru2
+### Diego no Mundo dos Vetores: A Revolução
+Controle Diego, nosso querido professor de física, e ajude-o a salvar o Mundo dos Vetores do horripilante ditador Claudio, chefe do tráfico de ponteiros
 
-# Jogar
-GameJolt: [https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947](https://gamejolt.com/games/Diego-no-mundo-dos-vetores/505947)
+# Jogar (EM BREVE)
+GameJolt: [EM BREVE]()
 
-GitHub Releases: [https://github.com/LucasMNP/Cajuru/releases](https://github.com/LucasMNP/Cajuru/releases)
+GitHub Releases: [EM BREVE](https://github.com/LucasMNP/Cajuru2/releases)
 
-Website: [https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio](https://sites.google.com/view/diego-no-mundo-dos-vetores/in%C3%ADcio)
+Website: [https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início](https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início)
 
-Parte 2: [https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início](https://sites.google.com/view/diego-no-mundo-dos-vetores-2/início)
+Parte 1: [https://sites.google.com/view/diego-no-mundo-dos-vetores/início](https://sites.google.com/view/diego-no-mundo-dos-vetores/início)
 
 # Abrindo no GDevelop e compilando
-Para abrir no GDevelop, você deve salvar tudo desse repositório em E:\GoogleDrive\Construct\Cajuru
+Para abrir no GDevelop, você deve salvar tudo desse repositório em E:\GoogleDrive\Construct\Cajuru2
 
 **Se você não tem um disco E: em seu computador,** você pode criar um disco E: falso que redirecione para o disco C: seguindo este tutorial: [https://youtu.be/qp6R4H8yRTM](https://youtu.be/qp6R4H8yRTM) (Monte como E: ao invés de Z: quando chegar nessa parte do tutorial)
 
@@ -21,10 +21,10 @@ Para abrir no GDevelop, você deve salvar tudo desse repositório em E:\GoogleDr
 Para abrir no GDevelop:
 - Baixe o GDevelop 5 em [https://gdevelop-app.com](https://gdevelop-app.com)
 - Complete a instalação do GDevelop em seu computador
-- Baixe esse repositório por completo e coloque os arquivos em E:\GoogleDrive\Construct\Cajuru
-- O "E:\GoogleDrive\Construct\Cajuru" deve ficar assim (O arquivo download.log e arquivos que terminem com .autosave podem ou não estar inclusos. Se houver qualquer outro arquivo que não está na imagem (como o ícone do app de iOS), os inclua também.): ![https://i.imgur.com/SMj3oIV.png](https://i.imgur.com/SMj3oIV.png)
+- Baixe esse repositório por completo e coloque os arquivos em E:\GoogleDrive\Construct\Cajuru2
+- O "E:\GoogleDrive\Construct\Cajuru2" deve ficar mais ou menos assim (O arquivo download.log e arquivos que terminem com .autosave podem ou não estar inclusos. Se houver qualquer outro arquivo que não está na imagem (como o ícone do app de iOS), inclua-os também.): ![https://i.imgur.com/SMj3oIV.png](https://i.imgur.com/SMj3oIV.png)
 - Abra o GDevelop e clique em "OPEN A PROJECT"
-- Selecione Cajuru.json ("E:\GoogleDrive\Construct\Cajuru\Cajuru.json") e clique em abrir
+- Selecione Cajuru2.json ("E:\GoogleDrive\Construct\Cajuru\Cajuru2.json") e clique em abrir
 
 Para compilar para .appimage,.exe,.app,.ipa,.apk,etc
 - Clique em "File" no topo da tela
@@ -33,7 +33,7 @@ Para compilar para .appimage,.exe,.app,.ipa,.apk,etc
 
 Para fazer uma pull request, descreva detalhadamente tudo que foi alterado.
 
-# [Licença](https://github.com/LucasMNP/Cajuru/blob/master/LICENSE)
+# [Licença](https://github.com/LucasMNP/Cajuru2/blob/main/LICENSE)
 
 Copyright 2020 Lu Neder
 
@@ -49,10 +49,10 @@ This work has the LPPL maintenance status `maintained'.
 
 The Current Maintainer of this work is Lu Neder.
 
-This work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru), exept images that include human faces. Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.
+This work consists of all the files stated on Cajuru.json, as well as all files in the GitHub repository of this work (https://github.com/LucasMNP/Cajuru2). Any human face on this work must be removed on derivated works, unless your derivated work has the intention to be merged with this work.
 
 
 
 
 
-[https://github.com/LucasMNP/Cajuru/blob/master/LICENSE](https://github.com/LucasMNP/Cajuru/blob/master/LICENSE)
+[https://github.com/LucasMNP/Cajuru2/blob/main/LICENSE](https://github.com/LucasMNP/Cajuru2/blob/main/LICENSE)
