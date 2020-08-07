@@ -2,6 +2,8 @@
 ### Diego no Mundo dos Vetores: A Revolução
 Controle Diego, nosso querido professor de física, e ajude-o a salvar o Mundo dos Vetores do horripilante ditador Claudio, chefe do tráfico de ponteiros
 
+**POR ENQUANTO ESSE JOGO É BASICAMENTE UMA CÓPIA DA PARTE 1. DESENVOLVIMENTO EM ANDAMENTO.**
+
 # Jogar (EM BREVE)
 GameJolt: [EM BREVE]()
 
