@@ -38780,7 +38780,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.018
+        "zoomFactor": 0.634
       },
       "objectsGroups": [],
       "variables": [],
@@ -38830,7 +38830,7 @@
           "locked": false,
           "name": "Titulo",
           "persistentUuid": "ea22f83e-d89f-429c-b477-ad256f773bd4",
-          "width": 996,
+          "width": 1010,
           "x": 55,
           "y": 93,
           "zOrder": 5,
