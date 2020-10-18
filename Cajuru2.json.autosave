@@ -10674,7 +10674,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.568
+        "zoomFactor": 0.736
       },
       "objectsGroups": [],
       "variables": [],
@@ -12818,7 +12818,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.562
+        "zoomFactor": 0.586
       },
       "objectsGroups": [],
       "variables": [],
@@ -12880,8 +12880,8 @@
           "name": "Diego",
           "persistentUuid": "1fcf5610-a17f-419c-9a7e-56ff8813d5c4",
           "width": 83,
-          "x": 72,
-          "y": 321,
+          "x": 77,
+          "y": 316,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
