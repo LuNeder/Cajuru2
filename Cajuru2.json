@@ -1139,6 +1139,13 @@
         "name": "Arquivos\\Titulo.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Arquivos/EaeGalerinha.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Arquivos\\EaeGalerinha.ogg",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8659,6 +8666,50 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Historia",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Arquivos\\EaeGalerinha.ogg",
+                "no",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
           "events": []
@@ -10623,7 +10674,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.568
+        "zoomFactor": 0.352
       },
       "objectsGroups": [],
       "variables": [],
@@ -10653,8 +10704,8 @@
           "name": "Diego",
           "persistentUuid": "7cc8bc29-5a2a-43d9-b20c-a0fd613a62a7",
           "width": 83,
-          "x": 72,
-          "y": 321,
+          "x": 76,
+          "y": 318,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10765,15 +10816,15 @@
           "name": "RelogioDigital",
           "persistentUuid": "bf765634-2fe1-4579-84a7-1f35b6cc1d91",
           "width": 61,
-          "x": 1923,
-          "y": 345,
+          "x": 1718,
+          "y": 195,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 5.71059,
           "customSize": true,
           "height": 36,
           "layer": "",
@@ -10781,8 +10832,8 @@
           "name": "RelogioDigital",
           "persistentUuid": "3caa3c19-bd66-479c-a172-dfe962c0ba1c",
           "width": 61,
-          "x": 263,
-          "y": 196,
+          "x": 300,
+          "y": 203,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -10853,7 +10904,7 @@
           "initialVariables": []
         },
         {
-          "angle": -2.58152,
+          "angle": 38.8421,
           "customSize": true,
           "height": 227,
           "layer": "",
@@ -10861,8 +10912,8 @@
           "name": "VetorPlataformaRampa",
           "persistentUuid": "8b63e676-1d11-441f-a644-c81160a91bef",
           "width": 539,
-          "x": 645,
-          "y": 161,
+          "x": 564,
+          "y": 191,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -10893,8 +10944,8 @@
           "name": "RelogioDigital",
           "persistentUuid": "c58f3d22-ab9e-41de-983c-798b79035d1b",
           "width": 61,
-          "x": 1349,
-          "y": 78,
+          "x": 1379,
+          "y": 356,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -10949,7 +11000,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 66.3706,
           "customSize": true,
           "height": 243,
           "layer": "",
@@ -10957,8 +11008,8 @@
           "name": "VetorPlataformaReto",
           "persistentUuid": "530aa9e4-434f-4472-bf33-67e72157f32c",
           "width": 220,
-          "x": 192,
-          "y": 121,
+          "x": 2037,
+          "y": 204,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -11040,6 +11091,54 @@
           "x": 644,
           "y": -23,
           "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 10.7843,
+          "customSize": true,
+          "height": 243,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "persistentUuid": "85675ec8-0f1a-43a9-93cc-8ab8caa9828b",
+          "width": 220,
+          "x": 192,
+          "y": 120,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 66.3706,
+          "customSize": true,
+          "height": 243,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "persistentUuid": "3bbab39e-1a64-4fe9-8a85-0c2d47e9714c",
+          "width": 220,
+          "x": 428,
+          "y": 226,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 66.3706,
+          "customSize": true,
+          "height": 243,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "persistentUuid": "7abbca59-c291-4944-9d0c-e8ec1c32c5a9",
+          "width": 220,
+          "x": 1358,
+          "y": 210,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
