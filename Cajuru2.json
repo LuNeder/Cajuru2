@@ -10674,7 +10674,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.352
+        "zoomFactor": 0.736
       },
       "objectsGroups": [],
       "variables": [],
@@ -12818,7 +12818,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.562
+        "zoomFactor": 0.586
       },
       "objectsGroups": [],
       "variables": [],
