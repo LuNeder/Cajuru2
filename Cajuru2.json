@@ -1146,6 +1146,13 @@
         "metadata": "",
         "name": "Arquivos\\EaeGalerinha.ogg",
         "userAdded": true
+      },
+      {
+        "file": "Arquivos/Teste.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.03399335369710532,\\\"sustain\\\":1.3064480666155607,\\\"sustainPunch\\\":80,\\\"decay\\\":5,\\\"tremoloDepth\\\":59,\\\"tremoloFrequency\\\":297.0152916231989,\\\"frequency\\\":6000,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":52.900000000000006,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":3,\\\"harmonicsFalloff\\\":0.27,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":450,\\\"vibratoFrequency\\\":828,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":37,\\\"flangerOffsetSweep\\\":-45,\\\"bitCrush\\\":6,\\\"bitCrushSweep\\\":-14,\\\"lowPassCutoff\\\":9.724457292594508,\\\"lowPassCutoffSweep\\\":20.456651987203585,\\\"highPassCutoff\\\":48.67710773671239,\\\"highPassCutoffSweep\\\":-954.3499293781733,\\\"compression\\\":0.8,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Teste\"}}",
+        "name": "Arquivos\\Teste.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6358,6 +6365,20 @@
                 "Titulo",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Arquivos\\EaeGalerinha.ogg",
+                "no",
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -13012,8 +13033,8 @@
           "name": "Background2",
           "persistentUuid": "8ba91580-2af7-48f5-9ef5-599edb882841",
           "width": 0,
-          "x": 0,
-          "y": 0,
+          "x": 2,
+          "y": -3,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -13132,7 +13153,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": -45,
           "customSize": true,
           "height": 42,
           "layer": "",
@@ -13140,15 +13161,15 @@
           "name": "RelogioDigital",
           "persistentUuid": "787dd81c-55cd-4551-a487-b3efe3dc74cd",
           "width": 64,
-          "x": 1054,
-          "y": 187,
+          "x": 1028,
+          "y": 213,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": -5.71059,
+          "angle": -18.8831,
           "customSize": true,
           "height": 271,
           "layer": "",
@@ -13156,8 +13177,8 @@
           "name": "VetorPlataformaRampa",
           "persistentUuid": "5525c14b-dd10-4bc5-a55f-b0aca9abd92b",
           "width": 453,
-          "x": 103,
-          "y": 111,
+          "x": 124,
+          "y": 130,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -13172,8 +13193,8 @@
           "name": "RelogioAnalogico",
           "persistentUuid": "d7848ec4-3bd3-4318-bc21-f02f0d087cb1",
           "width": 0,
-          "x": 789,
-          "y": 348,
+          "x": 470,
+          "y": 58,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -13204,8 +13225,8 @@
           "name": "VetorPlataformaAtravessavel",
           "persistentUuid": "c4360d42-c2d3-47d0-8910-2ce2d49f2521",
           "width": 286,
-          "x": 1718,
-          "y": 89,
+          "x": 1696,
+          "y": 98,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -13244,7 +13265,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 121.201,
           "customSize": true,
           "height": 62,
           "layer": "",
@@ -13252,8 +13273,8 @@
           "name": "RelogioDigital",
           "persistentUuid": "e7a18677-f1e3-4b9f-b531-9d4b4898b285",
           "width": 91,
-          "x": 448,
-          "y": 321,
+          "x": 1567,
+          "y": 325,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -13305,24 +13326,24 @@
           "name": "VetorPlataformaRampa",
           "persistentUuid": "82a70c7c-f3cc-4d05-bdca-74784b8ca1bb",
           "width": 426,
-          "x": 1200,
-          "y": 312,
+          "x": 1205,
+          "y": 310,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 81.6849,
           "customSize": true,
-          "height": 326,
+          "height": 437,
           "layer": "",
           "locked": false,
           "name": "VetorPlataformaReto",
           "persistentUuid": "b3205b05-1f04-4c11-8f99-049c058e749c",
-          "width": 201,
-          "x": 998,
-          "y": 74,
+          "width": 247,
+          "x": 954,
+          "y": 118,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -13388,6 +13409,22 @@
           "x": 972,
           "y": 462,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogico",
+          "persistentUuid": "ca4ad1ca-c120-434b-a431-defdaff058fc",
+          "width": 0,
+          "x": 789,
+          "y": 348,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
