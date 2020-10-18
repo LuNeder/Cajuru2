@@ -15026,7 +15026,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.472
+        "zoomFactor": 0.808
       },
       "objectsGroups": [],
       "variables": [],
@@ -15104,8 +15104,8 @@
           "name": "Diego",
           "persistentUuid": "2b0adc74-63f0-4b9f-a9a3-806c54e7a5d8",
           "width": 83,
-          "x": 65,
-          "y": 319,
+          "x": 70,
+          "y": 314,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -15152,9 +15152,9 @@
           "name": "RelogioDigital",
           "persistentUuid": "153a9d67-c91e-4a07-b028-c26ee8fb3c35",
           "width": 65,
-          "x": 249,
-          "y": 7,
-          "zOrder": 7,
+          "x": 262,
+          "y": 27,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15232,8 +15232,8 @@
           "name": "RelogioAnalogico",
           "persistentUuid": "7779c81a-1e54-477f-a1a0-8886422f88a6",
           "width": 0,
-          "x": 294,
-          "y": 184,
+          "x": 309,
+          "y": 195,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -15444,6 +15444,27 @@
           "y": 462,
           "zOrder": 18,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -8.1301,
+          "customSize": true,
+          "height": 39,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "persistentUuid": "aba5c4b3-d035-46ea-a51d-402a819fcdb7",
+          "width": 127,
+          "x": 1226,
+          "y": 259,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
