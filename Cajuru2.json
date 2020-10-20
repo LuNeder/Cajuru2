@@ -1153,6 +1153,24 @@
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.03399335369710532,\\\"sustain\\\":1.3064480666155607,\\\"sustainPunch\\\":80,\\\"decay\\\":5,\\\"tremoloDepth\\\":59,\\\"tremoloFrequency\\\":297.0152916231989,\\\"frequency\\\":6000,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":52.900000000000006,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":3,\\\"harmonicsFalloff\\\":0.27,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":450,\\\"vibratoFrequency\\\":828,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":37,\\\"flangerOffsetSweep\\\":-45,\\\"bitCrush\\\":6,\\\"bitCrushSweep\\\":-14,\\\"lowPassCutoff\\\":9.724457292594508,\\\"lowPassCutoffSweep\\\":20.456651987203585,\\\"highPassCutoff\\\":48.67710773671239,\\\"highPassCutoffSweep\\\":-954.3499293781733,\\\"compression\\\":0.8,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Teste\"}}",
         "name": "Arquivos\\Teste.wav",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/I- Ondas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\I- Ondas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/I- Emissor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\I- Emissor.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4758,6 +4776,84 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Arquivos\\Titulo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ondas",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Arquivos\\I- Ondas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Emissor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Arquivos\\I- Emissor.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20523,7 +20619,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.802
+        "zoomFactor": 0.898
       },
       "objectsGroups": [],
       "variables": [],
@@ -20657,7 +20753,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": -0.472858,
           "customSize": true,
           "height": 288,
           "layer": "",
@@ -20665,8 +20761,8 @@
           "name": "VetorPlataformaMovel",
           "persistentUuid": "2ca57b55-1735-49f6-93f7-18a45f16134e",
           "width": 214,
-          "x": 328,
-          "y": 77,
+          "x": 327,
+          "y": 71,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -20849,7 +20945,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": -2.08257,
           "customSize": true,
           "height": 275,
           "layer": "",
@@ -20857,8 +20953,8 @@
           "name": "VetorPlataformaAtravessavel",
           "persistentUuid": "af2386aa-b246-4943-8fed-c7e1cb887adc",
           "width": 210,
-          "x": 2249,
-          "y": 101,
+          "x": 2260,
+          "y": 251,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -20953,8 +21049,8 @@
           "name": "VetorPlataformaRampa",
           "persistentUuid": "75e8b173-a8b6-4a63-a719-d35921bef925",
           "width": 760,
-          "x": 2583,
-          "y": 79,
+          "x": 2540,
+          "y": 104,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -21167,7 +21263,7 @@
           "persistentUuid": "fd0b5a4b-634e-4691-9275-452fec383957",
           "width": 70,
           "x": 3635,
-          "y": -1,
+          "y": 56,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],

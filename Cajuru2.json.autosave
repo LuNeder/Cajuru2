@@ -20523,7 +20523,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.826
+        "zoomFactor": 0.802
       },
       "objectsGroups": [],
       "variables": [],
@@ -20657,7 +20657,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": -39.8056,
           "customSize": true,
           "height": 288,
           "layer": "",
@@ -20849,7 +20849,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": -2.08257,
           "customSize": true,
           "height": 275,
           "layer": "",
@@ -20857,8 +20857,8 @@
           "name": "VetorPlataformaAtravessavel",
           "persistentUuid": "af2386aa-b246-4943-8fed-c7e1cb887adc",
           "width": 210,
-          "x": 2249,
-          "y": 101,
+          "x": 2260,
+          "y": 251,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -20953,8 +20953,8 @@
           "name": "VetorPlataformaRampa",
           "persistentUuid": "75e8b173-a8b6-4a63-a719-d35921bef925",
           "width": 760,
-          "x": 2583,
-          "y": 79,
+          "x": 2540,
+          "y": 104,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -21167,7 +21167,7 @@
           "persistentUuid": "fd0b5a4b-634e-4691-9275-452fec383957",
           "width": 70,
           "x": 3635,
-          "y": -1,
+          "y": 56,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
