@@ -21720,8 +21720,8 @@
           "name": "Carrilhao",
           "persistentUuid": "08514ffb-cfee-4125-bff3-70bfc564d68f",
           "width": 98,
-          "x": 4886,
-          "y": 120,
+          "x": 4784,
+          "y": 122,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -21867,6 +21867,22 @@
           "x": 859,
           "y": 118,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Emissor",
+          "persistentUuid": "0e48e1d4-b171-4b88-b106-73b4b203ca0e",
+          "width": 166,
+          "x": 4894,
+          "y": 137,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23196,8 +23212,8 @@
               "parameters": [
                 "",
                 "Ondas",
-                "RelogioAnalogicoAtirador.X()",
-                "RelogioAnalogicoAtirador.Y()",
+                "Emissor.X()",
+                "Emissor.Y() + Emissor.Height()/3",
                 ""
               ],
               "subInstructions": []
@@ -23210,20 +23226,32 @@
               "parameters": [
                 "Ondas",
                 "=",
-                "0.15"
+                "0.25"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "AddForceVers"
+                "value": "AddForceXY"
               },
               "parameters": [
                 "Ondas",
-                "Diego",
-                "179",
+                "-270",
+                "0",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Emissor",
+                "=",
+                "777985489654894854545421542454545427527827725787754241210563889308068338398329898777754874874548471234567891014257722870000000000000683282375878575757745757400289220"
               ],
               "subInstructions": []
             },
@@ -23242,24 +23270,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "TiroRELOGIO",
-                "0",
-                "Emissor.Y()",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ResetObjectTimer"
               },
               "parameters": [
-                "RelogioAnalogicoAtirador",
+                "Emissor",
                 "\"DelayTiroRel\""
               ],
               "subInstructions": []
@@ -23317,6 +23331,52 @@
               },
               "parameters": [
                 "Ondas",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Diego",
+                    "",
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Diego",
+                "Health",
+                "300",
                 ""
               ],
               "subInstructions": []

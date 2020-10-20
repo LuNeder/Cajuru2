@@ -1153,6 +1153,24 @@
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.03399335369710532,\\\"sustain\\\":1.3064480666155607,\\\"sustainPunch\\\":80,\\\"decay\\\":5,\\\"tremoloDepth\\\":59,\\\"tremoloFrequency\\\":297.0152916231989,\\\"frequency\\\":6000,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":52.900000000000006,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":3,\\\"harmonicsFalloff\\\":0.27,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":450,\\\"vibratoFrequency\\\":828,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":37,\\\"flangerOffsetSweep\\\":-45,\\\"bitCrush\\\":6,\\\"bitCrushSweep\\\":-14,\\\"lowPassCutoff\\\":9.724457292594508,\\\"lowPassCutoffSweep\\\":20.456651987203585,\\\"highPassCutoff\\\":48.67710773671239,\\\"highPassCutoffSweep\\\":-954.3499293781733,\\\"compression\\\":0.8,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Teste\"}}",
         "name": "Arquivos\\Teste.wav",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/I- Ondas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\I- Ondas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/I- Emissor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\I- Emissor.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4771,6 +4789,590 @@
                     "y": 0
                   },
                   "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ondas",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\I- Ondas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.07143,
+                        "y": 194.107
+                      },
+                      {
+                        "x": 16.7857,
+                        "y": 155.536
+                      },
+                      {
+                        "x": 36.0714,
+                        "y": 148.75
+                      },
+                      {
+                        "x": 10.3571,
+                        "y": 197.679
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 159.25
+                      },
+                      {
+                        "x": 88,
+                        "y": 77.75
+                      },
+                      {
+                        "x": 102,
+                        "y": 81.75
+                      },
+                      {
+                        "x": 38.5,
+                        "y": 147.75
+                      }
+                    ],
+                    [
+                      {
+                        "x": 140.5,
+                        "y": 34
+                      },
+                      {
+                        "x": 140,
+                        "y": 48
+                      },
+                      {
+                        "x": 101,
+                        "y": 82.5
+                      },
+                      {
+                        "x": 87.5,
+                        "y": 75.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 139.375,
+                        "y": 48.75
+                      },
+                      {
+                        "x": 231.25,
+                        "y": 56.25
+                      },
+                      {
+                        "x": 222.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 140,
+                        "y": 33.125
+                      }
+                    ],
+                    [
+                      {
+                        "x": 221.25,
+                        "y": 40
+                      },
+                      {
+                        "x": 250.625,
+                        "y": 68.125
+                      },
+                      {
+                        "x": 272.5,
+                        "y": 119.583
+                      },
+                      {
+                        "x": 229.375,
+                        "y": 58.75
+                      }
+                    ],
+                    [
+                      {
+                        "x": 255.417,
+                        "y": 93.3333
+                      },
+                      {
+                        "x": 263.333,
+                        "y": 90.4167
+                      },
+                      {
+                        "x": 308.333,
+                        "y": 198.333
+                      },
+                      {
+                        "x": 299.167,
+                        "y": 205.833
+                      }
+                    ],
+                    [
+                      {
+                        "x": 299.583,
+                        "y": 206.667
+                      },
+                      {
+                        "x": 308.75,
+                        "y": 199.583
+                      },
+                      {
+                        "x": 314.583,
+                        "y": 252.083
+                      },
+                      {
+                        "x": 306.25,
+                        "y": 257.083
+                      }
+                    ],
+                    [
+                      {
+                        "x": 304.444,
+                        "y": 255.556
+                      },
+                      {
+                        "x": 313.889,
+                        "y": 251.667
+                      },
+                      {
+                        "x": 356.111,
+                        "y": 309.444
+                      },
+                      {
+                        "x": 340.556,
+                        "y": 311.667
+                      }
+                    ],
+                    [
+                      {
+                        "x": 438.5,
+                        "y": 347.5
+                      },
+                      {
+                        "x": 497.5,
+                        "y": 347
+                      },
+                      {
+                        "x": 502.5,
+                        "y": 357
+                      },
+                      {
+                        "x": 438,
+                        "y": 362
+                      }
+                    ],
+                    [
+                      {
+                        "x": 341.111,
+                        "y": 311.111
+                      },
+                      {
+                        "x": 355,
+                        "y": 310.833
+                      },
+                      {
+                        "x": 382,
+                        "y": 317.5
+                      },
+                      {
+                        "x": 411,
+                        "y": 347.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 397.5,
+                        "y": 333
+                      },
+                      {
+                        "x": 438,
+                        "y": 352
+                      },
+                      {
+                        "x": 438.5,
+                        "y": 361
+                      },
+                      {
+                        "x": 411,
+                        "y": 349
+                      }
+                    ],
+                    [
+                      {
+                        "x": 498,
+                        "y": 346
+                      },
+                      {
+                        "x": 598,
+                        "y": 255
+                      },
+                      {
+                        "x": 604.5,
+                        "y": 261
+                      },
+                      {
+                        "x": 502.5,
+                        "y": 356
+                      }
+                    ],
+                    [
+                      {
+                        "x": 745,
+                        "y": 64
+                      },
+                      {
+                        "x": 746.5,
+                        "y": 87
+                      },
+                      {
+                        "x": 672,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 656.5,
+                        "y": 161
+                      }
+                    ],
+                    [
+                      {
+                        "x": 660,
+                        "y": 160
+                      },
+                      {
+                        "x": 673,
+                        "y": 160
+                      },
+                      {
+                        "x": 645,
+                        "y": 219
+                      },
+                      {
+                        "x": 631.5,
+                        "y": 213.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 597,
+                        "y": 255
+                      },
+                      {
+                        "x": 635,
+                        "y": 212.5
+                      },
+                      {
+                        "x": 641,
+                        "y": 219
+                      },
+                      {
+                        "x": 607,
+                        "y": 261
+                      }
+                    ],
+                    [
+                      {
+                        "x": 865.625,
+                        "y": 66.875
+                      },
+                      {
+                        "x": 867.5,
+                        "y": 51.875
+                      },
+                      {
+                        "x": 912.5,
+                        "y": 130.625
+                      },
+                      {
+                        "x": 916.875,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 790,
+                        "y": 38.125
+                      },
+                      {
+                        "x": 867.5,
+                        "y": 51.25
+                      },
+                      {
+                        "x": 866.25,
+                        "y": 65
+                      },
+                      {
+                        "x": 786.25,
+                        "y": 55
+                      }
+                    ],
+                    [
+                      {
+                        "x": 741.875,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 790.625,
+                        "y": 39.375
+                      },
+                      {
+                        "x": 786.875,
+                        "y": 51.875
+                      },
+                      {
+                        "x": 745.625,
+                        "y": 87.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 943.75,
+                        "y": 273.75
+                      },
+                      {
+                        "x": 951.25,
+                        "y": 260.625
+                      },
+                      {
+                        "x": 945.625,
+                        "y": 215.625
+                      },
+                      {
+                        "x": 935.625,
+                        "y": 234.375
+                      }
+                    ],
+                    [
+                      {
+                        "x": 913.75,
+                        "y": 132.5
+                      },
+                      {
+                        "x": 946.25,
+                        "y": 214.375
+                      },
+                      {
+                        "x": 936.875,
+                        "y": 233.125
+                      },
+                      {
+                        "x": 915.625,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 1279.29,
+                        "y": 209.286
+                      },
+                      {
+                        "x": 1280.71,
+                        "y": 225.714
+                      },
+                      {
+                        "x": 1200.71,
+                        "y": 316.429
+                      },
+                      {
+                        "x": 1198.57,
+                        "y": 301.429
+                      }
+                    ],
+                    [
+                      {
+                        "x": 1209.29,
+                        "y": 295
+                      },
+                      {
+                        "x": 1200.71,
+                        "y": 316.429
+                      },
+                      {
+                        "x": 1142.86,
+                        "y": 365
+                      },
+                      {
+                        "x": 1136.43,
+                        "y": 354.286
+                      }
+                    ],
+                    [
+                      {
+                        "x": 1064.29,
+                        "y": 372.143
+                      },
+                      {
+                        "x": 1059.29,
+                        "y": 353.571
+                      },
+                      {
+                        "x": 1142.14,
+                        "y": 354.286
+                      },
+                      {
+                        "x": 1140.71,
+                        "y": 369.286
+                      }
+                    ],
+                    [
+                      {
+                        "x": 1058.57,
+                        "y": 352.143
+                      },
+                      {
+                        "x": 1064.29,
+                        "y": 371.429
+                      },
+                      {
+                        "x": 978.571,
+                        "y": 322.857
+                      },
+                      {
+                        "x": 989.286,
+                        "y": 314.286
+                      }
+                    ],
+                    [
+                      {
+                        "x": 977.143,
+                        "y": 322.143
+                      },
+                      {
+                        "x": 991.429,
+                        "y": 317.143
+                      },
+                      {
+                        "x": 951.429,
+                        "y": 260.714
+                      },
+                      {
+                        "x": 944.286,
+                        "y": 273.571
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Emissor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arquivos\\I- Emissor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 59,
+                        "y": 84.5
+                      },
+                      {
+                        "x": 155,
+                        "y": 1
+                      },
+                      {
+                        "x": 176,
+                        "y": 239
+                      },
+                      {
+                        "x": 69,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 105,
+                        "y": 83.5
+                      },
+                      {
+                        "x": 179,
+                        "y": 85.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 143.5
+                      },
+                      {
+                        "x": 109,
+                        "y": 161.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 31,
+                        "y": 57
+                      },
+                      {
+                        "x": 66,
+                        "y": 57
+                      },
+                      {
+                        "x": 68,
+                        "y": 200
+                      },
+                      {
+                        "x": 37,
+                        "y": 204
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -20523,7 +21125,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.802
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [],
@@ -20657,7 +21259,7 @@
           "initialVariables": []
         },
         {
-          "angle": -39.8056,
+          "angle": -0.472858,
           "customSize": true,
           "height": 288,
           "layer": "",
@@ -20665,8 +21267,8 @@
           "name": "VetorPlataformaMovel",
           "persistentUuid": "2ca57b55-1735-49f6-93f7-18a45f16134e",
           "width": 214,
-          "x": 328,
-          "y": 77,
+          "x": 327,
+          "y": 71,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -21118,8 +21720,8 @@
           "name": "Carrilhao",
           "persistentUuid": "08514ffb-cfee-4125-bff3-70bfc564d68f",
           "width": 98,
-          "x": 4886,
-          "y": 120,
+          "x": 4784,
+          "y": 122,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -21265,6 +21867,22 @@
           "x": 859,
           "y": 118,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Emissor",
+          "persistentUuid": "0e48e1d4-b171-4b88-b106-73b4b203ca0e",
+          "width": 166,
+          "x": 4894,
+          "y": 137,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22538,6 +23156,228 @@
                 "",
                 "\"Morreste\"",
                 "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Ondulatoria",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Emissor",
+                "\"DelayTiroRel\"",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Ondas",
+                "Emissor.X()",
+                "Emissor.Y() + Emissor.Height()/3",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Ondas",
+                "=",
+                "0.25"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Ondas",
+                "-270",
+                "0",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Emissor",
+                "=",
+                "777985489654894854545421542454545427527827725787754241210563889308068338398329898777754874874548471234567891014257722870000000000000683282375878575757745757400289220"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Ondas",
+                "=",
+                "77798548965489485454542154245454542752782772578775424121056388930806833839832989877775487487454847123456789101425772287000000000000068328237587857575774575740028922"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Emissor",
+                "\"DelayTiroRel\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TiroAMIGO",
+                "Emissor",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "TiroAMIGO",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Emissor",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ondas",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Diego",
+                    "",
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Diego",
+                "Health",
+                "300",
+                ""
               ],
               "subInstructions": []
             }
