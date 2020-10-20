@@ -21125,7 +21125,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.298
+        "zoomFactor": 0.37
       },
       "objectsGroups": [],
       "variables": [],
@@ -21331,8 +21331,8 @@
           "name": "VetorPlataformaReto",
           "persistentUuid": "9e86d7bf-a202-4a0c-8389-6519b9dd9c1c",
           "width": 193,
-          "x": 1017,
-          "y": 195,
+          "x": 909,
+          "y": 186,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -21379,8 +21379,8 @@
           "name": "RelogioDigital",
           "persistentUuid": "fdb76378-308f-490c-9d99-ade81be0a771",
           "width": 75,
-          "x": 1331,
-          "y": 24,
+          "x": 1123,
+          "y": 345,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -21864,8 +21864,8 @@
           "name": "VetorPlataformaReto",
           "persistentUuid": "65668f72-0656-4071-92ad-cf0e6b56590e",
           "width": 189,
-          "x": 859,
-          "y": 118,
+          "x": 782,
+          "y": 109,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -21881,7 +21881,7 @@
           "persistentUuid": "0e48e1d4-b171-4b88-b106-73b4b203ca0e",
           "width": 166,
           "x": 4894,
-          "y": 137,
+          "y": 105,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -23176,7 +23176,7 @@
               "parameters": [
                 "Emissor",
                 "\"DelayTiroRel\"",
-                "4"
+                "6"
               ],
               "subInstructions": []
             },
