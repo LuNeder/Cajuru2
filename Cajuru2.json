@@ -21125,7 +21125,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.154
+        "zoomFactor": 0.298
       },
       "objectsGroups": [],
       "variables": [],
@@ -22765,20 +22765,6 @@
                   "parameters": [
                     "TiroAMIGO",
                     "Escada",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "TiroAMIGO",
-                    "Carrilhao",
                     "",
                     "",
                     ""
