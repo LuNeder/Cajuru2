@@ -13858,7 +13858,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.586
+        "zoomFactor": 0.418
       },
       "objectsGroups": [],
       "variables": [],
@@ -13946,14 +13946,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 89,
+          "height": 67,
           "layer": "UI",
           "locked": false,
           "name": "UIPontos",
           "persistentUuid": "22b4124b-3ce4-4b36-99fd-103954913bae",
-          "width": 130,
-          "x": 935,
-          "y": 0,
+          "width": 106,
+          "x": 946,
+          "y": 9,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13968,7 +13968,7 @@
           "name": "UIPontosTexto",
           "persistentUuid": "42078ffd-a23d-474f-b6c2-1a66d8c858fd",
           "width": 0,
-          "x": 991,
+          "x": 989,
           "y": 23,
           "zOrder": 7,
           "numberProperties": [],
@@ -13978,12 +13978,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 92,
+          "height": 79,
           "layer": "UI",
           "locked": false,
           "name": "ContadorDeVidas",
           "persistentUuid": "ced2e60c-d91b-481a-849b-14390532598b",
-          "width": 189,
+          "width": 146,
           "x": 2,
           "y": 1,
           "zOrder": 8,
@@ -14048,7 +14048,7 @@
           "name": "RelogioDigital",
           "persistentUuid": "b0fa0ddd-76a0-4aa7-b5cb-a6233994d76f",
           "width": 91,
-          "x": 2177,
+          "x": 2156,
           "y": -19,
           "zOrder": 9,
           "numberProperties": [],
@@ -14080,8 +14080,8 @@
           "name": "RelogioAnalogicoAtirador",
           "persistentUuid": "8b5140f6-debc-48a7-a0b4-8c9e232bed62",
           "width": 0,
-          "x": 2209,
-          "y": 83,
+          "x": 2180,
+          "y": 89,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -14096,7 +14096,7 @@
           "name": "Nuvem",
           "persistentUuid": "c121556f-58b4-4f2c-849f-7646186d8ffb",
           "width": 270,
-          "x": 2103,
+          "x": 2058,
           "y": -36,
           "zOrder": 2,
           "numberProperties": [],
@@ -14128,7 +14128,7 @@
           "name": "Carrilhao",
           "persistentUuid": "b9f737b1-7e9b-432e-bd64-26e370ce5518",
           "width": 112,
-          "x": 2450,
+          "x": 2404,
           "y": 96,
           "zOrder": 2,
           "numberProperties": [
@@ -14264,6 +14264,38 @@
           "x": 789,
           "y": 348,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Emissor",
+          "persistentUuid": "c9ee58e2-3910-411a-b219-8a7bea74d6bf",
+          "width": 166,
+          "x": 2481,
+          "y": 118,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 315,
+          "layer": "",
+          "locked": false,
+          "name": "Parede",
+          "persistentUuid": "880a3aff-939d-48b1-b300-38fd424bb88a",
+          "width": 175,
+          "x": 2583,
+          "y": 76,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15043,20 +15075,6 @@
                   },
                   "parameters": [
                     "TiroAMIGO",
-                    "Carrilhao",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "TiroAMIGO",
                     "TiroAMIGO",
                     "",
                     "",
@@ -15475,6 +15493,228 @@
                 "",
                 "\"Morreste\"",
                 "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Ondulatoria",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Emissor",
+                "\"DelayTiroRel\"",
+                "6"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Ondas",
+                "Emissor.X()",
+                "Emissor.Y() + Emissor.Height()/3",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Ondas",
+                "=",
+                "0.25"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Ondas",
+                "-270",
+                "0",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Emissor",
+                "=",
+                "777985489654894854545421542454545427527827725787754241210563889308068338398329898777754874874548471234567891014257722870000000000000683282375878575757745757400289220"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Ondas",
+                "=",
+                "77798548965489485454542154245454542752782772578775424121056388930806833839832989877775487487454847123456789101425772287000000000000068328237587857575774575740028922"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Emissor",
+                "\"DelayTiroRel\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Diego",
+                    "",
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Diego",
+                "Health",
+                "300",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TiroAMIGO",
+                "Emissor",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "TiroAMIGO",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Emissor",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ondas",
+                ""
               ],
               "subInstructions": []
             }
@@ -21125,7 +21365,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.274
+        "zoomFactor": 0.25
       },
       "objectsGroups": [],
       "variables": [],
