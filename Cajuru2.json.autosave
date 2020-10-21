@@ -24662,7 +24662,7 @@
           "name": "Parede",
           "persistentUuid": "0501f155-0973-4bfb-93ca-b9edb2331224",
           "width": 223,
-          "x": 5476,
+          "x": 5579,
           "y": -268,
           "zOrder": 15,
           "numberProperties": [],
@@ -24678,7 +24678,7 @@
           "name": "Carrilhao",
           "persistentUuid": "4dda2f9a-184f-4d49-b210-95bc5337cf2b",
           "width": 119,
-          "x": 5644,
+          "x": 5703,
           "y": 82,
           "zOrder": 3,
           "numberProperties": [],
@@ -24870,8 +24870,8 @@
           "name": "VetorPlataformaReto",
           "persistentUuid": "1faa4eed-9238-444f-8b77-3c409498641b",
           "width": 2657,
-          "x": 4198,
-          "y": -1934,
+          "x": 4194,
+          "y": -1932,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -25653,7 +25653,7 @@
           "name": "Claudio",
           "persistentUuid": "35e04d11-dba3-4da6-b140-90d87fbd5d97",
           "width": 310,
-          "x": 5302,
+          "x": 5444,
           "y": 162,
           "zOrder": 5,
           "numberProperties": [],
@@ -26160,6 +26160,20 @@
                   "parameters": [
                     "TiroRELOGIO",
                     "VetorPlataformaReto",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "TiroRELOGIO",
+                    "VetorPlataformaMovel",
                     "",
                     "",
                     ""
