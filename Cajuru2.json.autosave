@@ -1171,6 +1171,15 @@
         "name": "Arquivos\\I- Emissor.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/I- ClaudioFujao.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\I- ClaudioFujao.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5742,6 +5751,35 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "I-ClaudioFujao",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Arquivos\\I- ClaudioFujao.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -24392,7 +24430,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.466
+        "zoomFactor": 0.154
       },
       "objectsGroups": [],
       "variables": [],
@@ -24662,7 +24700,7 @@
           "name": "Parede",
           "persistentUuid": "0501f155-0973-4bfb-93ca-b9edb2331224",
           "width": 223,
-          "x": 5579,
+          "x": 5604,
           "y": -268,
           "zOrder": 15,
           "numberProperties": [],
@@ -24678,7 +24716,7 @@
           "name": "Carrilhao",
           "persistentUuid": "4dda2f9a-184f-4d49-b210-95bc5337cf2b",
           "width": 119,
-          "x": 5703,
+          "x": 5716,
           "y": 82,
           "zOrder": 3,
           "numberProperties": [],
@@ -25435,8 +25473,8 @@
           "name": "RelogioAnalogicoEstatico",
           "persistentUuid": "704656ff-1bee-423a-8ac2-9c785f87a529",
           "width": 0,
-          "x": 4503,
-          "y": 351,
+          "x": 4442,
+          "y": 348,
           "zOrder": 47,
           "numberProperties": [
             {
@@ -25456,8 +25494,8 @@
           "name": "RelogioAnalogicoEstatico",
           "persistentUuid": "3c16c21a-3f1e-4cd7-b8ce-a2e0ad70313e",
           "width": 0,
-          "x": 4642,
-          "y": 351,
+          "x": 4581,
+          "y": 348,
           "zOrder": 47,
           "numberProperties": [
             {
@@ -25477,7 +25515,7 @@
           "name": "VetorPlataformaAtravessavel",
           "persistentUuid": "0d51ed27-5c62-4e75-ae07-e4697a6964e9",
           "width": 168,
-          "x": 4742,
+          "x": 4712,
           "y": 36,
           "zOrder": 46,
           "numberProperties": [],
@@ -25493,8 +25531,8 @@
           "name": "VetorPlataformaAtravessavel",
           "persistentUuid": "e7105021-3fba-40fb-ad02-bfa6e0ba4345",
           "width": 168,
-          "x": 4415,
-          "y": 36,
+          "x": 4367,
+          "y": 47,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -25509,8 +25547,8 @@
           "name": "RelogioAnalogicoAtirador",
           "persistentUuid": "f51c826c-8418-49d4-843e-c55d8247bda4",
           "width": 0,
-          "x": 4992,
-          "y": 68,
+          "x": 4921,
+          "y": 71,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -25525,7 +25563,7 @@
           "name": "VetorPlataformaMovel",
           "persistentUuid": "bd9e7c10-71c8-4ac6-a904-0bbce543cb08",
           "width": 190,
-          "x": 4887,
+          "x": 4802,
           "y": -63,
           "zOrder": 49,
           "numberProperties": [],
@@ -25637,8 +25675,8 @@
           "name": "ClaudioVidaUI",
           "persistentUuid": "6f6308a3-883d-47ed-8a27-30feedc21a51",
           "width": 0,
-          "x": 930,
-          "y": 65,
+          "x": 5452,
+          "y": 1232,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -25653,9 +25691,30 @@
           "name": "Claudio",
           "persistentUuid": "35e04d11-dba3-4da6-b140-90d87fbd5d97",
           "width": 310,
-          "x": 5444,
-          "y": 162,
+          "x": 5475,
+          "y": 160,
           "zOrder": 5,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1904,
+          "layer": "",
+          "locked": false,
+          "name": "detector2",
+          "persistentUuid": "ca273772-3ae0-49e4-8c7b-5c7374d390cb",
+          "width": 382,
+          "x": 4259,
+          "y": -194,
+          "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25681,6 +25740,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Arquivos\\C- Background 6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "detector2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "A-INVISIVEL",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\A- INVISIVEL.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27718,13 +27816,21 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Health::Health::IsDead"
+                "value": "Egal"
               },
               "parameters": [
-                "Claudio",
-                "Health",
-                ""
+                "Claudio.Health::Health()",
+                "<=",
+                "500"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -27732,15 +27838,39 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MettreY"
+                "value": "MettreXY"
               },
               "parameters": [
                 "Claudio",
                 "=",
-                "7000"
+                "5316",
+                "=",
+                "29"
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "Claudio.Health::Health()",
+                "<=",
+                "500"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "inverted": false,
@@ -27761,6 +27891,44 @@
                 "RelogioAnalogicoAtirador",
                 "=",
                 "7000"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "Claudio",
+                "Health",
+                "500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Claudio",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Claudio",
+                "50",
+                "0",
+                "1"
               ],
               "subInstructions": []
             }
@@ -27808,8 +27976,38 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Diego",
+                "detector2",
+                "",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "ClaudioVidaUI",
+                "=",
+                "930",
+                "=",
+                "65"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
