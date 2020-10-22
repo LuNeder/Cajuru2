@@ -24442,11 +24442,11 @@
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 255,
+      "r": 204,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 73,
+      "v": 62,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -24458,7 +24458,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.418
+        "zoomFactor": 0.442
       },
       "objectsGroups": [],
       "variables": [],
