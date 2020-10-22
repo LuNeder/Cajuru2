@@ -24430,7 +24430,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.25
       },
       "objectsGroups": [],
       "variables": [],
