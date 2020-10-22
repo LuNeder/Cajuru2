@@ -24430,7 +24430,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.634
+        "zoomFactor": 0.538
       },
       "objectsGroups": [],
       "variables": [],
@@ -24924,8 +24924,8 @@
           "name": "fundopreto",
           "persistentUuid": "2007a40c-1914-43d0-996c-ba2ee358df89",
           "width": 836,
-          "x": -3,
-          "y": -4106,
+          "x": -10,
+          "y": -4149,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -25691,7 +25691,7 @@
           "name": "Claudio",
           "persistentUuid": "35e04d11-dba3-4da6-b140-90d87fbd5d97",
           "width": 310,
-          "x": 5475,
+          "x": 5474,
           "y": 160,
           "zOrder": 5,
           "numberProperties": [
