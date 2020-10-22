@@ -24430,7 +24430,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.154
+        "zoomFactor": 0.25
       },
       "objectsGroups": [],
       "variables": [],
@@ -24924,8 +24924,8 @@
           "name": "fundopreto",
           "persistentUuid": "2007a40c-1914-43d0-996c-ba2ee358df89",
           "width": 836,
-          "x": -3,
-          "y": -4106,
+          "x": -10,
+          "y": -4149,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -25275,9 +25275,9 @@
           "locked": false,
           "name": "VetorPlataformaMovel",
           "persistentUuid": "754d06e8-b41c-4aa1-9c18-499aceb04776",
-          "width": 257,
-          "x": 3556,
-          "y": 74,
+          "width": 355,
+          "x": 3520,
+          "y": 69,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -25562,8 +25562,8 @@
           "locked": false,
           "name": "VetorPlataformaMovel",
           "persistentUuid": "bd9e7c10-71c8-4ac6-a904-0bbce543cb08",
-          "width": 190,
-          "x": 4802,
+          "width": 276,
+          "x": 4771,
           "y": -63,
           "zOrder": 49,
           "numberProperties": [],
@@ -25691,7 +25691,7 @@
           "name": "Claudio",
           "persistentUuid": "35e04d11-dba3-4da6-b140-90d87fbd5d97",
           "width": 310,
-          "x": 5475,
+          "x": 5474,
           "y": 160,
           "zOrder": 5,
           "numberProperties": [
@@ -27707,19 +27707,6 @@
                 "Claudio",
                 "=",
                 "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Health::Health::SetHealth"
-              },
-              "parameters": [
-                "Diego",
-                "Health",
-                "777777777777777777777777777777777777777777777777777777777777777777777777777777777740028922777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777",
-                ""
               ],
               "subInstructions": []
             }
