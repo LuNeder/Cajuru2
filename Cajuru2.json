@@ -1180,6 +1180,24 @@
         "name": "Arquivos\\I- ClaudioFujao.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/I- ClaudioMachucado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\I- ClaudioMachucado.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/I- Claudio - Copia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\I- Claudio - Copia.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5628,7 +5646,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arquivos\\I-Claudio-1.png",
+                  "image": "Arquivos\\I- ClaudioMachucado.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5795,6 +5813,64 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Arquivos\\I- ClaudioFujao.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Arquivos\\I- Claudio - Copia.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Arquivos\\I-Claudio-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -24458,7 +24534,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.274
       },
       "objectsGroups": [],
       "variables": [],
