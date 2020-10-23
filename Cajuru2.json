@@ -2129,8 +2129,8 @@
                         "y": 223
                       },
                       {
-                        "x": 312.5,
-                        "y": 235
+                        "x": 310.5,
+                        "y": 236
                       },
                       {
                         "x": 80.5,
@@ -2153,6 +2153,52 @@
                       {
                         "x": 98.5,
                         "y": 262
+                      }
+                    ],
+                    [
+                      {
+                        "x": 494.5,
+                        "y": 228
+                      },
+                      {
+                        "x": 644.5,
+                        "y": 242
+                      },
+                      {
+                        "x": 449.5,
+                        "y": 244
+                      }
+                    ],
+                    [
+                      {
+                        "x": 87.5,
+                        "y": 248
+                      },
+                      {
+                        "x": 301.5,
+                        "y": 230
+                      },
+                      {
+                        "x": 354.5,
+                        "y": 251
+                      }
+                    ],
+                    [
+                      {
+                        "x": 294.5,
+                        "y": 222
+                      },
+                      {
+                        "x": 503.5,
+                        "y": 228
+                      },
+                      {
+                        "x": 455.5,
+                        "y": 240
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 249
                       }
                     ]
                   ]
@@ -24534,7 +24580,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.274
+        "zoomFactor": 0.754
       },
       "objectsGroups": [],
       "variables": [],
@@ -25012,8 +25058,8 @@
           "name": "VetorPlataformaReto",
           "persistentUuid": "1faa4eed-9238-444f-8b77-3c409498641b",
           "width": 2657,
-          "x": 4194,
-          "y": -1932,
+          "x": 4186,
+          "y": -1915,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -25635,8 +25681,8 @@
           "name": "VetorPlataformaAtravessavel",
           "persistentUuid": "e7105021-3fba-40fb-ad02-bfa6e0ba4345",
           "width": 168,
-          "x": 4367,
-          "y": 47,
+          "x": 4328,
+          "y": 40,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -25816,8 +25862,8 @@
           "name": "detector2",
           "persistentUuid": "ca273772-3ae0-49e4-8c7b-5c7374d390cb",
           "width": 382,
-          "x": 4259,
-          "y": -194,
+          "x": 3772,
+          "y": -349,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
