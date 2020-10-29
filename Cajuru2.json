@@ -21957,7 +21957,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.13
+        "zoomFactor": 0.178
       },
       "objectsGroups": [],
       "variables": [],
@@ -31072,7 +31072,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.178
+        "zoomFactor": 0.754
       },
       "objectsGroups": [],
       "variables": [],
@@ -31818,6 +31818,22 @@
           "x": 972,
           "y": 462,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Emissor",
+          "persistentUuid": "17a25b15-3f44-4cdc-91d0-221841bf6a15",
+          "width": 166,
+          "x": 4703,
+          "y": 108,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
