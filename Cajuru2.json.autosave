@@ -21941,7 +21941,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.25
+        "zoomFactor": 0.13
       },
       "objectsGroups": [],
       "variables": [],
@@ -24580,7 +24580,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.73
+        "zoomFactor": 0.37
       },
       "objectsGroups": [],
       "variables": [],
@@ -28272,7 +28272,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.418
+        "zoomFactor": 0.37
       },
       "objectsGroups": [],
       "variables": [],
@@ -28443,7 +28443,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 112.306,
           "customSize": true,
           "height": 178,
           "layer": "",
@@ -28451,8 +28451,8 @@
           "name": "VetorPlataformaReto",
           "persistentUuid": "24ffea0c-ad8a-4860-b273-e4d9ff4ba8c0",
           "width": 144,
-          "x": 201,
-          "y": 154,
+          "x": 346,
+          "y": 258,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -28467,8 +28467,8 @@
           "name": "VetorPlataformaReto",
           "persistentUuid": "3bfb42c9-d4fc-4a53-9e8a-cb98649225b7",
           "width": 144,
-          "x": 513,
-          "y": 154,
+          "x": 556,
+          "y": 264,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -28659,7 +28659,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": -2.34536,
           "customSize": true,
           "height": 178,
           "layer": "",
@@ -28667,8 +28667,8 @@
           "name": "VetorPlataformaReto",
           "persistentUuid": "a844ad1f-2cdc-4061-820f-640387e755b2",
           "width": 144,
-          "x": 834,
-          "y": 154,
+          "x": 811,
+          "y": 163,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
