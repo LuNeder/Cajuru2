@@ -28272,7 +28272,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.322
+        "zoomFactor": 0.202
       },
       "objectsGroups": [],
       "variables": [],
@@ -28406,7 +28406,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 159.775,
           "customSize": true,
           "height": 178,
           "layer": "",
@@ -28414,8 +28414,8 @@
           "name": "VetorPlataformaReto",
           "persistentUuid": "69daff87-87f9-412a-932c-04a5bb80c7d7",
           "width": 144,
-          "x": 2510,
-          "y": 148,
+          "x": 2498,
+          "y": 298,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -28430,8 +28430,8 @@
           "name": "RelogioAnalogicoEstatico",
           "persistentUuid": "f0781b06-474f-4fed-ad9d-f5555c0ed225",
           "width": 91,
-          "x": 2533,
-          "y": 200,
+          "x": 2616,
+          "y": 361,
           "zOrder": 10,
           "numberProperties": [
             {
