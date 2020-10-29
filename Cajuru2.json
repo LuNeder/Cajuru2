@@ -18830,7 +18830,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.13
+        "zoomFactor": 0.346
       },
       "objectsGroups": [],
       "variables": [],
@@ -18892,9 +18892,9 @@
           "name": "Diego",
           "persistentUuid": "1dd94c7a-6a58-4fb8-9d71-a79bc1effb9a",
           "width": 83,
-          "x": 241,
-          "y": -8435,
-          "zOrder": 7,
+          "x": 84,
+          "y": 315,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
