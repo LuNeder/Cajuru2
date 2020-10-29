@@ -18830,7 +18830,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.13
       },
       "objectsGroups": [],
       "variables": [],
@@ -18892,8 +18892,8 @@
           "name": "Diego",
           "persistentUuid": "1dd94c7a-6a58-4fb8-9d71-a79bc1effb9a",
           "width": 83,
-          "x": 69,
-          "y": 323,
+          "x": 241,
+          "y": -8435,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -20239,6 +20239,22 @@
           "x": -5,
           "y": -8817,
           "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "VetorPlataformaReto",
+          "persistentUuid": "009717dc-7407-453b-981c-1818bf695009",
+          "width": 0,
+          "x": -174,
+          "y": -8972,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28272,7 +28288,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.202
+        "zoomFactor": 0.298
       },
       "objectsGroups": [],
       "variables": [],
@@ -31056,7 +31072,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.706
       },
       "objectsGroups": [],
       "variables": [],
