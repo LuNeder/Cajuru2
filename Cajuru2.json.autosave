@@ -33787,7 +33787,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.274
+        "zoomFactor": 0.634
       },
       "objectsGroups": [],
       "variables": [],
@@ -37050,7 +37050,7 @@
           "name": "Claudio",
           "persistentUuid": "ec472f72-d1bf-432a-946b-f19f35fa451b",
           "width": 310,
-          "x": 4283,
+          "x": 4348,
           "y": 178,
           "zOrder": 5,
           "numberProperties": [],
@@ -37210,7 +37210,7 @@
           "name": "RelogioAnalogicoAtirador",
           "persistentUuid": "f2a8c469-94bb-4fb0-97e6-87591eb2a5b4",
           "width": 0,
-          "x": 2386,
+          "x": 1914,
           "y": 372,
           "zOrder": 21,
           "numberProperties": [],
@@ -37250,38 +37250,6 @@
           "initialVariables": []
         },
         {
-          "angle": -91.1935,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "VetorPlataformaReto",
-          "persistentUuid": "384ce859-9f8c-47db-8ce6-52e7895b4866",
-          "width": 0,
-          "x": 2542,
-          "y": 206,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 291,
-          "layer": "",
-          "locked": false,
-          "name": "VetorPlataformaReto",
-          "persistentUuid": "bf19a5a9-9c60-426c-bfe1-80fdbc4c4500",
-          "width": 316,
-          "x": 2829,
-          "y": -23,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": false,
           "height": 0,
@@ -37293,22 +37261,6 @@
           "x": 522,
           "y": 108,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 363,
-          "layer": "",
-          "locked": false,
-          "name": "VetorPlataformaRampa",
-          "persistentUuid": "97044981-5031-4341-96b4-845cb4a21d1c",
-          "width": 792,
-          "x": 2129,
-          "y": 121,
-          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37376,9 +37328,107 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1280,
+          "layer": "",
+          "locked": false,
+          "name": "detector",
+          "persistentUuid": "75783d55-448f-43e0-a3ca-c26ab335928c",
+          "width": 2081,
+          "x": 2896,
+          "y": -431,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1626,
+          "layer": "",
+          "locked": false,
+          "name": "Parede2",
+          "persistentUuid": "b4fee434-4601-4df8-b6e9-368fb6ba0034",
+          "width": 499,
+          "x": 2556,
+          "y": -1628,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "name": "Parede2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Parede",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Parede-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11.6959,
+                            "y": 0.487805
+                          },
+                          {
+                            "x": 29.9886,
+                            "y": 0
+                          },
+                          {
+                            "x": 29.8666,
+                            "y": 63.5366
+                          },
+                          {
+                            "x": 12.0617,
+                            "y": 63.6585
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Background10",
           "tags": "",
@@ -37476,6 +37526,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "NewObject-1-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "detector",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\A- INVISIVEL.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -39484,6 +39573,50 @@
                 "Health",
                 "100",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Diego",
+                "detector",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Parede2",
+                "+",
+                "610"
               ],
               "subInstructions": []
             }
