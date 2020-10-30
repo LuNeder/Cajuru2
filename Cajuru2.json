@@ -36889,7 +36889,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.418
+        "zoomFactor": 0.634
       },
       "objectsGroups": [],
       "variables": [],
@@ -37489,7 +37489,7 @@
           "name": "StartWall",
           "persistentUuid": "afa7187b-8707-4adb-9bbb-3db6ff4d61ec",
           "width": 862,
-          "x": -1228,
+          "x": -947,
           "y": 1918,
           "zOrder": 41,
           "numberProperties": [],
@@ -37504,7 +37504,7 @@
           "locked": false,
           "name": "camdetector",
           "persistentUuid": "b4ddf5ee-1edb-453b-b944-1f0b7156f87b",
-          "width": 1935,
+          "width": 1518,
           "x": -2752,
           "y": 1497,
           "zOrder": 42,
@@ -37545,6 +37545,38 @@
           "x": -34724,
           "y": 28349,
           "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "persistentUuid": "8609c580-d0d2-4f13-a24a-a77d45e08bac",
+          "width": 0,
+          "x": -85,
+          "y": 151,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 647,
+          "layer": "",
+          "locked": false,
+          "name": "detectorEG2",
+          "persistentUuid": "e9894ed5-3fc0-4d54-8794-97afed51ae53",
+          "width": 862,
+          "x": -1192,
+          "y": 2120,
+          "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37833,6 +37865,45 @@
         },
         {
           "name": "detector",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\A- INVISIVEL.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "detectorEG2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -40414,6 +40485,55 @@
                 "",
                 "\"Fase \" + GlobalVariableString(FasesDesbloqueadas)",
                 "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Diego",
+                "detectorEG2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Diego",
+                "=",
+                "94",
+                "=",
+                "328"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"0;0;0\""
               ],
               "subInstructions": []
             }
