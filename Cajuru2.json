@@ -37533,8 +37533,8 @@
           "name": "Portal",
           "persistentUuid": "187e7f19-463b-4ffb-af3d-b0fdb48e41f9",
           "width": 0,
-          "x": -3653,
-          "y": 3704,
+          "x": -1871,
+          "y": 2395,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -40279,9 +40279,9 @@
               "parameters": [
                 "Portal",
                 "=",
-                "-2314",
+                "Portal.X() - Portal.ScaleX()*2",
                 "=",
-                "2241"
+                "Portal.Y() - Portal.ScaleY()*2"
               ],
               "subInstructions": []
             },
