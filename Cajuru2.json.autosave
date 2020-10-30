@@ -1198,6 +1198,15 @@
         "name": "Arquivos\\I- Claudio - Copia.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/C- Background 10-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\C- Background 10-2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -36871,7 +36880,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.274
+        "zoomFactor": 1.09
       },
       "objectsGroups": [],
       "variables": [],
@@ -36965,8 +36974,8 @@
           "name": "Diego",
           "persistentUuid": "bb39ecd3-d77c-40c8-88ad-cde91f26cfdf",
           "width": 83,
-          "x": 70,
-          "y": 338,
+          "x": 94,
+          "y": 328,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -36981,7 +36990,7 @@
           "name": "Ground",
           "persistentUuid": "56388c7c-5e47-418f-acd1-be575221a72b",
           "width": 6777,
-          "x": -73,
+          "x": -545,
           "y": 413,
           "zOrder": 7,
           "numberProperties": [],
@@ -37360,6 +37369,139 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2989,
+          "layer": "",
+          "locked": false,
+          "name": "StartWall",
+          "persistentUuid": "4acfb4d8-ad31-492f-a8b7-60c73fc49098",
+          "width": 862,
+          "x": 6096,
+          "y": -1692,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2499,
+          "layer": "",
+          "locked": false,
+          "name": "StartWall",
+          "persistentUuid": "ce4f8fe0-4c5d-4e7f-b661-e17442b2787f",
+          "width": 862,
+          "x": -1406,
+          "y": -1505,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1635,
+          "layer": "",
+          "locked": false,
+          "name": "detectorEG",
+          "persistentUuid": "961c924b-da88-4dd0-9cc5-46d00758d2fc",
+          "width": 862,
+          "x": -1208,
+          "y": -818,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 608,
+          "layer": "",
+          "locked": false,
+          "name": "Baackground102",
+          "persistentUuid": "c3c786e4-974b-4df2-9559-880d7f12b9c4",
+          "width": 1073,
+          "x": -2298,
+          "y": 2265,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 360,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "76b2a71f-00a6-41a5-bfc9-2000f1f67df4",
+          "width": 1550,
+          "x": -2466,
+          "y": 2576,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1070,
+          "layer": "",
+          "locked": false,
+          "name": "StartWall",
+          "persistentUuid": "ecc90705-44ca-4ae4-9404-56ca71cd1d9f",
+          "width": 862,
+          "x": -3163,
+          "y": 2038,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1275,
+          "layer": "",
+          "locked": false,
+          "name": "StartWall",
+          "persistentUuid": "afa7187b-8707-4adb-9bbb-3db6ff4d61ec",
+          "width": 862,
+          "x": -1228,
+          "y": 1918,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1980,
+          "layer": "",
+          "locked": false,
+          "name": "camdetector",
+          "persistentUuid": "b4ddf5ee-1edb-453b-b944-1f0b7156f87b",
+          "width": 1935,
+          "x": -2752,
+          "y": 1497,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37548,6 +37690,123 @@
         },
         {
           "name": "detector",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\A- INVISIVEL.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "detectorEG",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\A- INVISIVEL.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Baackground102",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\C- Background 10-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "camdetector",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -39622,6 +39881,86 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Diego",
+                "detectorEG",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Diego",
+                "=",
+                "-1271",
+                "=",
+                "2502"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Diego",
+                "camdetector",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "Diego",
+                "-2294",
+                "2266",
+                "-1230",
+                "2875",
+                "",
+                "\"\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -39700,7 +40039,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.76
       },
       "objectsGroups": [],
       "variables": [],
