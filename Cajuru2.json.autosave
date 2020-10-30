@@ -38498,6 +38498,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"fim2\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -40146,6 +40157,17 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"0;0;0\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -40210,7 +40232,7 @@
               },
               "parameters": [
                 "",
-                "\"fim\""
+                "\"fim2\""
               ],
               "subInstructions": []
             },
@@ -40221,7 +40243,7 @@
               },
               "parameters": [
                 "",
-                "\"fim\""
+                "\"fim2\""
               ],
               "subInstructions": []
             },
@@ -40274,26 +40296,81 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MettreXY"
+                "value": "ChangeScale"
               },
               "parameters": [
                 "Portal",
-                "=",
-                "Portal.X() - Portal.ScaleX()*2",
-                "=",
-                "Portal.Y() - Portal.ScaleY()*2"
+                "+",
+                "0.05"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeScale"
+                "value": "CentreCamera"
               },
               "parameters": [
+                "",
                 "Portal",
-                "+",
-                "0.1"
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Baackground102",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Diego",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Claudio",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "ContadorDeVidas",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "ClaudioVidaUI",
+                ""
               ],
               "subInstructions": []
             }
