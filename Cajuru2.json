@@ -6019,7 +6019,7 @@
     },
     {
       "name": "RelogiosColetados",
-      "value": ""
+      "value": "-1"
     },
     {
       "name": "RelogiosObtidosFaseAnterior",
@@ -36889,7 +36889,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.298
+        "zoomFactor": 0.418
       },
       "objectsGroups": [],
       "variables": [],
@@ -37542,8 +37542,8 @@
           "name": "Portal",
           "persistentUuid": "187e7f19-463b-4ffb-af3d-b0fdb48e41f9",
           "width": 0,
-          "x": -1871,
-          "y": 2395,
+          "x": -34724,
+          "y": 28349,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -40412,7 +40412,7 @@
               },
               "parameters": [
                 "",
-                "\"Fase\" + GlobalVariableString(FasesDesbloqueadas)",
+                "\"Fase \" + GlobalVariableString(FasesDesbloqueadas)",
                 "yes"
               ],
               "subInstructions": []
@@ -40657,7 +40657,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.76
+        "zoomFactor": 0.64
       },
       "objectsGroups": [],
       "variables": [],
@@ -40706,6 +40706,70 @@
           "x": -36,
           "y": -42,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FIM",
+          "persistentUuid": "a34eb995-5029-445c-87dc-7a7a58020b8c",
+          "width": 0,
+          "x": 492,
+          "y": 1,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 432,
+          "layer": "",
+          "locked": false,
+          "name": "FinalSecreto",
+          "persistentUuid": "4588da7e-2d20-4e12-bf59-68325822f560",
+          "width": 1032,
+          "x": 31,
+          "y": 81,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Segredo",
+          "persistentUuid": "4a821795-9b27-4b1d-94aa-292c9932e5c7",
+          "width": 0,
+          "x": 6,
+          "y": 575,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "prox",
+          "persistentUuid": "24601cb4-e5b8-43db-9cf1-2ad99349031a",
+          "width": 0,
+          "x": 228,
+          "y": 513,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -40769,6 +40833,82 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "FIM",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "FIM",
+          "font": "",
+          "characterSize": 75,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "FinalSecreto",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Diego encontrou o Vetor-Diego, fazendo com que a Terra e o Mundo dos Vetores colidissem e com que os portais de ida e volta sugassem um ao outro repetidamente, levando os dois mundos e todo o Universo à inexistência. Tudo o que sobrou foi um portal único, muito parecido com um buraco negro, mas muito pior, pois suga tudo, independente da distância. É o  fim.",
+          "font": "",
+          "characterSize": 42,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Segredo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Você encontrou o Final Secreto! Mande uma foto disso para diegoeasteregg@gmail.com",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "prox",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Clique aqui para continuar",
+          "font": "",
+          "characterSize": 51,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -40815,7 +40955,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "InfoButtonMainMenu",
+                "prox",
                 "",
                 "yes",
                 ""
@@ -40861,8 +41001,824 @@
               },
               "parameters": [
                 "\"https://google.com/\"+GlobalVariableString(FasesDesbloqueadas)",
-                "\"Informações\"",
+                "\"Fase 13\"",
                 "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ShowShadow"
+              },
+              "parameters": [
+                "FinalSecreto",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "TimedBackAndForthMirroredMovement",
+          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Fase_3213",
+      "name": "Fase 13",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.64
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Carregando",
+          "persistentUuid": "d58db02b-fca2-409e-9d82-c10f5665d24b",
+          "width": 0,
+          "x": 265,
+          "y": 486,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 570,
+          "layer": "",
+          "locked": false,
+          "name": "Titulo",
+          "persistentUuid": "4fd97416-78eb-4a3d-995b-13da04ee1d33",
+          "width": 1331,
+          "x": -163,
+          "y": -26,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 763,
+          "layer": "",
+          "locked": false,
+          "name": "Background12",
+          "persistentUuid": "18a67823-c074-4f70-ace6-d706cf86769b",
+          "width": 1115,
+          "x": -36,
+          "y": -42,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FIM",
+          "persistentUuid": "a34eb995-5029-445c-87dc-7a7a58020b8c",
+          "width": 0,
+          "x": 464,
+          "y": -15,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 432,
+          "layer": "",
+          "locked": false,
+          "name": "RelogiosFim",
+          "persistentUuid": "4588da7e-2d20-4e12-bf59-68325822f560",
+          "width": 1060,
+          "x": 7,
+          "y": 53,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Segredo",
+          "persistentUuid": "4a821795-9b27-4b1d-94aa-292c9932e5c7",
+          "width": 0,
+          "x": 6,
+          "y": 575,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "prox",
+          "persistentUuid": "24601cb4-e5b8-43db-9cf1-2ad99349031a",
+          "width": 0,
+          "x": 422,
+          "y": 427,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Carregando",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Carregando...",
+          "font": "",
+          "characterSize": 90,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "Background12",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\C- Background 12.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "FIM",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "FIM",
+          "font": "",
+          "characterSize": 75,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "RelogiosFim",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "O Diego da Terra encontrou o Diego do Mundo Dos Vetores, fazendo com que os dois mundos colidissem e com que os portais de ida e volta sugassem um ao outro repetidamente, levando os dois mundos e todo o Universo para um lugar desconhecido. O Sol de ambos os mundos formaram um buraco negro cada, e isso foi tudo o que sobrou na existência conhecida",
+          "font": "",
+          "characterSize": 49,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Segredo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Você encontrou o Final Secreto! Mande uma foto disso para diegoeasteregg@gmail.com",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "prox",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Clique aqui para continuar",
+          "font": "",
+          "characterSize": 51,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Toujours"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Fim\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "prox",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PopStartedTouch"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Creditos\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ShowShadow"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ShowShadow"
+              },
+              "parameters": [
+                "prox",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                ">",
+                "35"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou \" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios! Nossa, você achou mais relógios do que existiam em nosso mundo! Por acaso você é um contrabandista? Como você fez isso?\nHá 33 relógios e mais 2 relógios secretos, totalizando 35 relógios no jogo.\nMande um print disso para diegoeasteregg@gmail.com\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "=",
+                "34"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou \" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios! Nossa, você realmente se dedicou! Você pegou todos os relógios, até um dos secretos! (existiam 2 secretos no total)\n\nMande um print disso para diegoeasteregg@gmail.com\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "=",
+                "35"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou \" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios! Nossa, você realmente se dedicou! Você pegou todos os relógios, até os secretos!\n\nMande um print disso para diegoeasteregg@gmail.com\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "=",
+                "33"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou todos os 33 relógios que estavam em seu caminho? Nossa, você realmente se dedicou!\n(Há 2 relógios secretos no jogo, você não os pegou)\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "<",
+                "33"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                ">=",
+                "22"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou \" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios! Não são todos que apareceram em seu caminho, mas ainda assim é muito.\nHá 33 relógios e mais 2 relógios secretos, totalizando 35 relógios no jogo.\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "<",
+                "22"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                ">=",
+                "11"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou \" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios. \nHá 33 relógios e mais 2 relógios secretos, totalizando 35 relógios no jogo.\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "<",
+                "11"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                ">=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou só \" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios. Cadê a dedicação?\nHá 33 relógios e mais 2 relógios secretos, totalizando 35 relógios no jogo.\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você não pegou nenhum relógio? Tá de brincadeira? Que absurdo!\n\nHá 33 relógios e mais 2 relógios secretos, totalizando 35 relógios no jogo.\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "<",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou \" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios! Isso é menos que 0, que estranho. Deve ser um erro na matemática por causa do encontro do Diego com o Vetor-Diego.\n\nMande um print disso para diegoeasteregg@gmail.com\""
               ],
               "subInstructions": []
             }
@@ -40948,7 +41904,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.784
+        "zoomFactor": 0.976
       },
       "objectsGroups": [],
       "variables": [],
@@ -42047,6 +43003,40 @@
           "conditions": [
             {
               "type": {
+                "inverted": false,
+                "value": "Egal"
+              },
+              "parameters": [
+                "GlobalVariable(RelogiosColetados)",
+                "<",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RelogiosFim",
+                "=",
+                "\"Você pegou \" + ToString(GlobalVariable(RelogiosColetados)) + \" relógios! Isso é menos que 0, que estranho. Deve ser um erro na matemática por causa do encontro do Diego com o Vetor-Diego.\n\nMande um print disso para diegoeasteregg@gmail.com\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": true,
                 "value": "Animation"
               },
@@ -42153,7 +43143,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.352
+        "zoomFactor": 0.202
       },
       "objectsGroups": [],
       "variables": [],
