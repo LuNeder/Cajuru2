@@ -36871,7 +36871,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.202
+        "zoomFactor": 0.274
       },
       "objectsGroups": [],
       "variables": [],
@@ -39714,9 +39714,25 @@
           "name": "Carregando",
           "persistentUuid": "d58db02b-fca2-409e-9d82-c10f5665d24b",
           "width": 0,
-          "x": 278,
-          "y": 241,
+          "x": 265,
+          "y": 486,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 570,
+          "layer": "",
+          "locked": false,
+          "name": "Titulo",
+          "persistentUuid": "4fd97416-78eb-4a3d-995b-13da04ee1d33",
+          "width": 1331,
+          "x": -163,
+          "y": -26,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
