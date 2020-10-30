@@ -1198,6 +1198,15 @@
         "name": "Arquivos\\I- Claudio - Copia.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arquivos/C- Background 10-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arquivos\\C- Background 10-2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -36871,7 +36880,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.178
+        "zoomFactor": 0.058
       },
       "objectsGroups": [],
       "variables": [],
@@ -37408,6 +37417,27 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 608,
+          "layer": "",
+          "locked": false,
+          "name": "Baackground102",
+          "persistentUuid": "c3c786e4-974b-4df2-9559-880d7f12b9c4",
+          "width": 1073,
+          "x": -2298,
+          "y": 2265,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37652,6 +37682,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Arquivos\\A- INVISIVEL.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Baackground102",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Arquivos\\C- Background 10-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
