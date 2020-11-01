@@ -44711,7 +44711,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.634
+        "zoomFactor": 0.73
       },
       "objectsGroups": [],
       "variables": [],
@@ -44765,6 +44765,22 @@
           "x": 55,
           "y": 93,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 447,
+          "layer": "",
+          "locked": false,
+          "name": "Diego",
+          "persistentUuid": "a716d338-77e0-4ccd-a256-8eb9cb948208",
+          "width": 226,
+          "x": 258,
+          "y": 322,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -44848,6 +44864,15 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [],
