@@ -12122,18 +12122,18 @@
       ]
     },
     {
-      "b": 255,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "_205cone",
       "name": "Ícone",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 0,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 182,
+      "v": 73,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -12143,9 +12143,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.88
+        "zoomFactor": 0.928
       },
       "objectsGroups": [],
       "variables": [],
@@ -12159,8 +12159,8 @@
           "name": "Nuvem",
           "persistentUuid": "59dd1ce0-d90e-4ae7-91b6-6c5edd352a32",
           "width": 217,
-          "x": 116,
-          "y": 54,
+          "x": -855,
+          "y": 1425,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -12175,8 +12175,8 @@
           "name": "Nuvem",
           "persistentUuid": "afcd37be-c083-48e6-b758-e3ca120ccaab",
           "width": 217,
-          "x": 294,
-          "y": -18,
+          "x": -696,
+          "y": 1345,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -12191,8 +12191,8 @@
           "name": "Nuvem",
           "persistentUuid": "93d7b44e-1640-4d94-97cd-fb6612f1a0e8",
           "width": 217,
-          "x": 481,
-          "y": 80,
+          "x": -509,
+          "y": 1443,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -12207,8 +12207,8 @@
           "name": "Diego",
           "persistentUuid": "602167e7-29c4-4cae-84dd-7ed2fb8f4842",
           "width": 292,
-          "x": 467,
-          "y": 302,
+          "x": -523,
+          "y": 1665,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -12228,10 +12228,31 @@
           "name": "VetorPlataformaMovel",
           "persistentUuid": "beb4cec6-055e-4492-abaa-096fb80716ff",
           "width": 567,
-          "x": 135,
-          "y": 307,
+          "x": -855,
+          "y": 1670,
           "zOrder": 3,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 165,
+          "layer": "",
+          "locked": false,
+          "name": "Claudio",
+          "persistentUuid": "5dc81c56-d482-4880-866d-175ad1f31a9d",
+          "width": 149,
+          "x": -841,
+          "y": 1442,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
