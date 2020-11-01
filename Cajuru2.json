@@ -44754,7 +44754,7 @@
           "initialVariables": []
         },
         {
-          "angle": -0.594934,
+          "angle": -54.5676,
           "customSize": true,
           "height": 219,
           "layer": "",
@@ -44762,15 +44762,31 @@
           "name": "Diego",
           "persistentUuid": "0f2c960c-32d2-49eb-8055-325a31c6b69e",
           "width": 121,
-          "x": 317,
-          "y": 293,
-          "zOrder": 7,
+          "x": 814,
+          "y": 239,
+          "zOrder": 9,
           "numberProperties": [
             {
               "name": "animation",
               "value": 0
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 327.87,
+          "customSize": true,
+          "height": 326,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject2",
+          "persistentUuid": "94b6bcc8-1391-4bfb-8770-1c621d7a7283",
+          "width": 375,
+          "x": 671,
+          "y": 129,
+          "zOrder": 8,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
