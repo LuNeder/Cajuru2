@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
+    "version": "2.0.0",
     "winExecutableFilename": "",
     "winExecutableIconFile": "",
     "name": "Diego no Mundo dos Vetores: A Revolução",
@@ -12122,18 +12122,18 @@
       ]
     },
     {
-      "b": 255,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "_205cone",
       "name": "Ícone",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 0,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 182,
+      "v": 73,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -12143,9 +12143,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.88
+        "zoomFactor": 0.928
       },
       "objectsGroups": [],
       "variables": [],
@@ -12159,8 +12159,8 @@
           "name": "Nuvem",
           "persistentUuid": "59dd1ce0-d90e-4ae7-91b6-6c5edd352a32",
           "width": 217,
-          "x": 116,
-          "y": 54,
+          "x": -855,
+          "y": 1425,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -12175,8 +12175,8 @@
           "name": "Nuvem",
           "persistentUuid": "afcd37be-c083-48e6-b758-e3ca120ccaab",
           "width": 217,
-          "x": 294,
-          "y": -18,
+          "x": -696,
+          "y": 1345,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -12191,8 +12191,8 @@
           "name": "Nuvem",
           "persistentUuid": "93d7b44e-1640-4d94-97cd-fb6612f1a0e8",
           "width": 217,
-          "x": 481,
-          "y": 80,
+          "x": -509,
+          "y": 1443,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -12207,8 +12207,8 @@
           "name": "Diego",
           "persistentUuid": "602167e7-29c4-4cae-84dd-7ed2fb8f4842",
           "width": 292,
-          "x": 467,
-          "y": 302,
+          "x": -523,
+          "y": 1665,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -12228,10 +12228,31 @@
           "name": "VetorPlataformaMovel",
           "persistentUuid": "beb4cec6-055e-4492-abaa-096fb80716ff",
           "width": 567,
-          "x": 135,
-          "y": 307,
+          "x": -855,
+          "y": 1670,
           "zOrder": 3,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 165,
+          "layer": "",
+          "locked": false,
+          "name": "Claudio",
+          "persistentUuid": "5dc81c56-d482-4880-866d-175ad1f31a9d",
+          "width": 149,
+          "x": -841,
+          "y": 1442,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -42044,7 +42065,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 0
+              "value": 1
             }
           ],
           "stringProperties": [],
@@ -42085,14 +42106,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 120,
+          "height": 170,
           "layer": "",
           "locked": false,
           "name": "RelogiosFim",
           "persistentUuid": "bfa8e02c-dd7d-4423-9870-7a653dc4341e",
-          "width": 512,
-          "x": 209,
-          "y": 85,
+          "width": 659,
+          "x": 178,
+          "y": 8,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -44711,7 +44732,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.634
+        "zoomFactor": 0.73
       },
       "objectsGroups": [],
       "variables": [],
@@ -44725,7 +44746,7 @@
           "name": "NewObject",
           "persistentUuid": "72d9f655-06eb-4972-8bab-5829afd590c8",
           "width": 0,
-          "x": -5038,
+          "x": -5023,
           "y": 0,
           "zOrder": 1,
           "numberProperties": [],
@@ -44735,14 +44756,14 @@
         {
           "angle": -0.594934,
           "customSize": true,
-          "height": 427,
+          "height": 219,
           "layer": "",
           "locked": false,
           "name": "Diego",
           "persistentUuid": "0f2c960c-32d2-49eb-8055-325a31c6b69e",
-          "width": 246,
-          "x": -85,
-          "y": 343,
+          "width": 121,
+          "x": 317,
+          "y": 293,
           "zOrder": 7,
           "numberProperties": [
             {
@@ -44750,22 +44771,6 @@
               "value": 0
             }
           ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 466,
-          "layer": "",
-          "locked": false,
-          "name": "Titulo",
-          "persistentUuid": "ea22f83e-d89f-429c-b477-ad256f773bd4",
-          "width": 1010,
-          "x": 55,
-          "y": 93,
-          "zOrder": 5,
-          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -44848,6 +44853,15 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [],
