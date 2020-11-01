@@ -6059,7 +6059,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5244
+        "zoomFactor": 0.7404
       },
       "objectsGroups": [],
       "variables": [
@@ -12329,7 +12329,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.736
+        "zoomFactor": 0.496
       },
       "objectsGroups": [],
       "variables": [],
@@ -12647,8 +12647,8 @@
           "name": "RelogioAnalogicoAtirador",
           "persistentUuid": "7ddf0633-fe07-4641-9887-ee9ce25a052e",
           "width": 0,
-          "x": 1934,
-          "y": 83,
+          "x": 535,
+          "y": 75,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -12794,6 +12794,38 @@
           "x": 1358,
           "y": 210,
           "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoAtirador",
+          "persistentUuid": "8122e009-70e0-4de4-84a7-d6ad84195309",
+          "width": 0,
+          "x": 1945,
+          "y": 82,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RelogioAnalogicoEstatico",
+          "persistentUuid": "8e46b07b-1571-4f14-99f4-d18ac88c8a69",
+          "width": 0,
+          "x": 498,
+          "y": 195,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18869,7 +18901,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.13
       },
       "objectsGroups": [],
       "variables": [],
@@ -19763,8 +19795,8 @@
           "name": "RelogioAnalogico",
           "persistentUuid": "7bc19ea3-cd89-42c2-b13e-3cc947888324",
           "width": 0,
-          "x": 387,
-          "y": -5643,
+          "x": 399,
+          "y": -5837,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
