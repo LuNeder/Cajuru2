@@ -28359,7 +28359,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.298
+        "zoomFactor": 0.514
       },
       "objectsGroups": [],
       "variables": [],
@@ -28999,8 +28999,8 @@
           "name": "RelogioAnalogico",
           "persistentUuid": "6f2c49d8-6d76-4326-98d4-844b29b33161",
           "width": 0,
-          "x": 3212,
-          "y": 205,
+          "x": 3420,
+          "y": 341,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
