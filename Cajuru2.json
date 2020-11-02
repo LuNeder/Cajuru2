@@ -11579,32 +11579,11 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.946
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": -19.0426,
-          "customSize": true,
-          "height": 187,
-          "layer": "",
-          "locked": false,
-          "name": "Diego",
-          "persistentUuid": "0c454f1c-785a-4347-928c-07579b0aab99",
-          "width": 282,
-          "x": 815,
-          "y": 145,
-          "zOrder": 20,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 4
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -11682,6 +11661,27 @@
           "y": -261,
           "zOrder": 1,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -33.3686,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Diego",
+          "persistentUuid": "c5041f1c-3e10-46cc-a2ef-eca0ff5c5d93",
+          "width": 278,
+          "x": 839,
+          "y": 156,
+          "zOrder": 7,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -11799,9 +11799,9 @@
               "parameters": [
                 "Diego",
                 "=",
-                "562",
+                "839",
                 "=",
-                "184"
+                "156"
               ],
               "subInstructions": []
             }
