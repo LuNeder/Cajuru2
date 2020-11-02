@@ -12329,7 +12329,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.496
+        "zoomFactor": 0.424
       },
       "objectsGroups": [],
       "variables": [],
@@ -12829,6 +12829,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "persistentUuid": "7f4d48ff-5ed0-4b20-be22-388c426e3906",
+          "width": 0,
+          "x": 344,
+          "y": 95,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 193,
+          "layer": "",
+          "locked": false,
+          "name": "Nuvem",
+          "persistentUuid": "b51cb5ab-e1da-41f3-b0ce-ccfd09af7308",
+          "width": 252,
+          "x": 1519,
+          "y": 0,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -12948,6 +12980,28 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "behaviors": [],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true
         }
       ],
       "events": [
@@ -48048,6 +48102,25 @@
       "eventsBasedBehaviors": []
     }
   ],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "associatedLayout": "Fase 1",
+      "name": "NewExternalLayout",
+      "instances": [],
+      "editionSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      }
+    }
+  ],
   "externalSourceFiles": []
 }
