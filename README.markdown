@@ -2,7 +2,7 @@
 ### Diego no Mundo dos Vetores: A Revolução
 Controle Diego, nosso querido professor de física, e ajude-o a salvar o Mundo dos Vetores do horripilante ditador Claudio, chefe do tráfico de ponteiros
 
-# Jogar (EM BREVE)
+# Jogar
 GameJolt: [https://gamejolt.com/games/diego-no-mundo-dos-vetores-a-revolucao/546127](https://gamejolt.com/games/diego-no-mundo-dos-vetores-a-revolucao/546127)
 
 GitHub Releases: [https://github.com/LucasMNP/Cajuru2/releases](https://github.com/LucasMNP/Cajuru2/releases)
